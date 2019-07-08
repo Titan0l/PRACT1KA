@@ -53,6 +53,7 @@ void main() {
 
 		int p_cel = n / A2; // деление нацело 
 		int p_ost = n % A2; // остаток от деления
+		if (p_cel == 0) p_cel = 1;
 		for (int i = 0; i < A1; ++i) {
 			for (int m = 0; m < p_cel; ++m) {
 				for (int j = 0; j < p_ost; ++j) {
@@ -66,7 +67,7 @@ void main() {
 	else if (u == 2) {
 		int p_cel = n / A1;
 		int p_ost = n % A1;
-
+		if (p_cel == 0) p_cel = 1;
 		for (int j = 0; j < A2; ++j) {
 			for (int m = 0; m < p_cel; ++m) {
 				for (int i = 0; i < p_ost; ++i) {
