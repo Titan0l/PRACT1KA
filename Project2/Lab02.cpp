@@ -14,7 +14,7 @@ int main() {
 	cout << "\t eps: "; cin >> eps;
 	cout << "Значение аргумента" << "\t|\t" << "Значение функции" << "\t|\t" << "Количество просуммированных членов ряда.\n" << '\n';
 	unsigned num;
-	for (double x = xn; x < x_konech; x += dx) {
+	for (double x = xn; x < x_konech+dx; x += dx) {
 		sum = 0;
 		num = Z(sum, x, eps);
 

@@ -191,8 +191,7 @@ Node* deleteNode(Node* first)
 	cin >> eta;
 	cout << "Введите площадь: ";
 	cin >> pl;
-	cout << "Введите адрес > ";
-	cin >> ad;
+	
 	Node* temp = first;
 	int k = -1;
 	int N = 0;
@@ -264,6 +263,8 @@ Node* deleteNode(Node* first)
 		pv->kolvo_kom = kom;
 		pv->etaz = eta;
 		pv->plachyad = pl;
+		cout << "Похожей заявки нет.Введите адрес для включения заявки в список > ";
+		cin >> ad;
 		strcpy_s(pv->adres, 20, ad);
 		cout << "\n";
 		pv->next = NULL;
