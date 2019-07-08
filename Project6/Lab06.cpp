@@ -22,7 +22,7 @@ void Sort(NOTE *studs, int len) {
 }
 
 int main() {
-
+	system("color F0");
 	setlocale(LC_ALL, "rus");
 	cout << "Введите количество записей: ";
 	int n;

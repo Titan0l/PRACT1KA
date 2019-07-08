@@ -216,6 +216,7 @@ void lab4() {
 
 
 void main() {
+	system("color F0");
 	setlocale(LC_ALL, "RUS");
 	int p;
 	cout << "¬ведите номер лабы(3,4)" << endl;

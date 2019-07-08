@@ -4,6 +4,7 @@
 using namespace std;
 
 void main() {
+	system("color F0");
 	int p;
 
 	setlocale(LC_ALL, "RUS");

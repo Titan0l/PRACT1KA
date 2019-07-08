@@ -3,6 +3,7 @@
 using namespace std;
 
 int main() {
+	system("color F0");
 	setlocale(LC_ALL, "RUS");
 	int q;
 

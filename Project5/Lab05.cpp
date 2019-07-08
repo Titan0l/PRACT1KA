@@ -6,6 +6,7 @@ using namespace std;
 
 
 int main() {
+	system("color F0");
 
 	const int len = 81;
 

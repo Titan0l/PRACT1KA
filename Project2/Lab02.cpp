@@ -4,6 +4,7 @@ using namespace std;
 int Z(double&, double, const double);
 
 int main() {
+	system("color F0");
 	double xn, x_konech, dx, eps, sum;
 	const int MaxIter = 1000;
 	setlocale(LC_ALL, "RUS");

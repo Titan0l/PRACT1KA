@@ -5,7 +5,7 @@ using namespace std;
 
 void main() {
 
-
+	system("color F0");
 	setlocale(LC_ALL, "RUS");
 	double a, z1, z2, b;
 	cout << "¬ведите a" << endl;

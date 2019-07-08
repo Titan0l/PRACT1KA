@@ -22,28 +22,13 @@ void outNodeNum(Node* first); // вывод одной заявки
 
 int main()
 {
+	system("color F0");
 	setlocale(LC_ALL, "Russian");
 
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
 
-	//Node *first = new Node;
-	//int n = 1;
-	//cout << "-------Данные о заявке-------\n\n";
-	//cout << "Введите пункт назначения > ";
-	//cin >> first-> kolvo_kom;
-	//cout << "Введите номер рейса > ";
-	//cin >> first->etaz;
-	//cout << "Введите фамилию пассажира > ";
-	//cin >> first->name;
-	//cout << "Введите имя пассажира > ";
-	//cin >> first->surname;
-	//cout << "Введите отчество пассажира > ";
-	//cin >> first->patr;
-	//cout << "Введите дату вылета > ";
-	//cin >> first->date;
-	//cout << "\n";
-	//first->next = NULL;
+	
 
 	////////////////////////////////////////////////////////
 	Node* first = new Node;  first->kolvo_kom = 1;  first->etaz = 1; first->plachyad = 25;  strcpy_s(first->adres, 20, "ул.Ленина");
